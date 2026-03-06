@@ -1,16 +1,14 @@
 # Representation Curriculum Learning for Robust Ranking and Allocation
-
-Implementation of **Representation Curriculum (RC)** methods for Learning-to-Rank on **MSLR-WEB10K** (LETOR format) and supporting scripts to reproduce **results + figures**. 
+Implementation of **Representation Curriculum (RC)** methods for Learning-to-Rank on **MSLR-WEB10K** (LETOR format) and supporting scripts to reproduce **results + figures**.
 
 ## What’s in this repository
 
 **Main training / sweep scripts**
-- `GenerateForM.py`: runs an **M sweep** (curriculum depth) across **5 folds** and multiple repeats; outputs CSVs for overall + cold metrics and historical feature gains. :contentReference[oaicite:2]{index=2}
-- `train_all.py`: trains the “all-features” baseline (full model). :contentReference[oaicite:3]{index=3}
-- `content_only.py`: trains the content-only baseline. :contentReference[oaicite:4]{index=4}
-- `CL.py`: curriculum-learning utilities / implementation helpers. :contentReference[oaicite:5]{index=5}
-- `utilities.py`: shared utilities. :contentReference[oaicite:6]{index=6}
-
+- [`GenerateForM.py`](./GenerateForM.py): runs an **M sweep** (curriculum depth) across **5 folds** and multiple repeats; outputs CSVs for overall + cold metrics and historical feature gains.
+- [`train_all.py`](./train_all.py): trains the “all-features” baseline (full model).
+- [`content_only.py`](./content_only.py): trains the content-only baseline.
+- [`CL.py`](./CL.py): curriculum-learning utilities / implementation helpers.
+- [`utilities.py`](./utilities.py): shared utilities.
 **Plotting**
 - `AUC Plot.py`: generates plots across M (cold vs overall) for metrics such as NDCG@{1,3,5,10} and related curves. :contentReference[oaicite:7]{index=7}
 
