@@ -19,7 +19,6 @@ Implementation of **Representation Curriculum (RC)** methods for Learning-to-Ran
 **Included result tables (CSV)**
 This repo already contains several summary CSVs (means/stds/per-fold) for baselines and/or sweeps. :contentReference[oaicite:8]{index=8}
 
----
 
 ## Setup
 
@@ -29,7 +28,7 @@ python -m venv .venv
 source .venv/bin/activate   # (mac/linux)
 pip install -U pip
 pip install numpy pandas scikit-learn lightgbm matplotlib
-
+```
 ### 2) Dataset: MSLR-WEB10K (LETOR format)
 
 Download **MSLR-WEB10K** and unzip it so the folder looks like:
@@ -49,7 +48,6 @@ MSLR-WEB10K/
 
 > The scripts expect 5 folds and the standard LETOR text format.
 
----
 
 ## Reproducing results (RC sweep over curriculum depth M)
 
