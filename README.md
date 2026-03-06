@@ -1,8 +1,6 @@
-# CurriculumRepresentation
+# Representation Curriculum Learning for Robust Ranking and Allocation
 
-Implementation of **Representation Curriculum (RC)** methods for Learning-to-Rank on **MSLR-WEB10K** (LETOR format) and supporting scripts to reproduce **results + figures**. :contentReference[oaicite:1]{index=1}
-
----
+Implementation of **Representation Curriculum (RC)** methods for Learning-to-Rank on **MSLR-WEB10K** (LETOR format) and supporting scripts to reproduce **results + figures**. 
 
 ## What’s in this repository
 
