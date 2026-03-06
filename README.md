@@ -12,10 +12,10 @@ Implementation of **Representation Curriculum (RC)** methods for Learning-to-Ran
 
   
 **Plotting**
-- `AUC Plot.py`: generates plots across M (cold vs overall) for metrics such as NDCG@{1,3,5,10} and related curves. :contentReference[oaicite:7]{index=7}
+- [`AUC Plot.py`](./AUC%20Plot.py): generates plots across **M** (cold vs overall) for metrics such as **NDCG@{1,3,5,10}** and related curves.
 
 **Included result tables (CSV)**
-This repo already contains several summary CSVs (means/stds/per-fold) for baselines and/or sweeps. :contentReference[oaicite:8]{index=8}
+- This repo includes summary CSVs (e.g., per-fold results, means/stds) for baselines and/or curriculum sweeps.
 
 
 ## Setup
