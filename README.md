@@ -29,7 +29,7 @@ pip install numpy pandas scikit-learn lightgbm matplotlib
 ```
 ### 2) Dataset: MSLR-WEB10K (LETOR format)
 
-Download MSLR-WEB10K](https://www.microsoft.com/en-us/research/project/mslr/) and unzip it so the folder looks like:
+Download [MSLR-WEB10K](https://www.microsoft.com/en-us/research/project/mslr/) and unzip it so the folder looks like:
 
 MSLR-WEB10K/
 - Fold1/
