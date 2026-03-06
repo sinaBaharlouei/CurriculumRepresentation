@@ -9,6 +9,8 @@ Implementation of **Representation Curriculum (RC)** methods for Learning-to-Ran
 - [`content_only.py`](./content_only.py): trains the content-only baseline.
 - [`CL.py`](./CL.py): curriculum-learning utilities / implementation helpers.
 - [`utilities.py`](./utilities.py): shared utilities.
+
+  
 **Plotting**
 - `AUC Plot.py`: generates plots across M (cold vs overall) for metrics such as NDCG@{1,3,5,10} and related curves. :contentReference[oaicite:7]{index=7}
 
